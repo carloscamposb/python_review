@@ -1,38 +1,39 @@
 ### My jorney 🪴
 
 * Day 1:
-- Variables
-- print and imput functions 
-- Project: Creating a new Band Name
+> Variables <br>
+> print and imput functions <br>
+> Project: Creating a new Band Name<br>
 
 * Day 2:
-- Data Type
-- TypeError
-- str() int() Type Conversion 
-- Mathematical operations in Python
-- Project: Building a tip calculator
+> Data Type<br>
+> TypeError<br>
+> str() int() Type Conversion <br>
+> Mathematical operations in Python<br>
+> Project: Building a tip calculator<br>
 
 * Day 3:
-- Conditional statements
-- Logical Operators
-- Code Blocks 
-- Scope
-- Project: Treasure Island ; Pizza Delivery
+> Conditional statements<br>
+> Logical Operators<br>
+> Code Blocks <br>
+> Scope<br>
+> Project: Treasure Island ; Pizza Delivery<br>
 
 * Day 4:
-- Randomisation
-- Python List
-- Project: Scissors, Rock or paper; Who will pay the bill?
+> Randomisation<br>
+> Python List<br>
+> Project: Scissors, Rock or paper; Who will pay the bill?<br>
 
 * Day 5:
-- For loops
-- Range
-- Code Blocks
-- Project: Buzz, Fizz, BuzzFizz ; generator of strongs passwords
+> For loops<br>
+> Range<br>
+> Code Blocks<br>
+> Project: Buzz, Fizz, BuzzFizz ; generator of strongs passwords<br>
 
+------ (I'm here! ✨ ) -----
 * Day 6:
-- function
-- while loop
-- Code Blocks
-- Projects
+> function
+> while loop
+> Code Blocks
+> Projects
 
