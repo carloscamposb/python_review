@@ -32,8 +32,8 @@
 
 ------ (I'm here! ✨ ) -----
 * Day 6:
-> function
-> while loop
-> Code Blocks
-> Projects
+> function <br>
+> while loop<br>
+> Code Blocks<br>
+> Projects<br>
 
