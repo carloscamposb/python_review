@@ -30,10 +30,13 @@
 > Code Blocks<br>
 > Project: Buzz, Fizz, BuzzFizz ; generator of strongs passwords<br>
 
------- (I'm here! ✨ ) -----
 * Day 6:
-- function
-- while loop
-- Code Blocks
-- Projects
+> Functions concept<br>
+> while loop<br>
+> Project: Driving a robot <br>
 
+* Day 7:
+> Review (Hangman project)
+
+* Day 8:
+------ (I'm here! ✨ ) -----
