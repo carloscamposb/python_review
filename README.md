@@ -39,4 +39,13 @@
 > Review (Hangman project)
 
 * Day 8:
+> Functions with inputs<br>
+> Parameters and Arguments<br>
+> Project: Game of Love and Cesar cipher
+
+* Day 9:
+> Dictionaries<br>
+> Nesting<br>
+> Project: 
+
 ------ (I'm here! ✨ ) -----

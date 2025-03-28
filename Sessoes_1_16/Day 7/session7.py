@@ -23,11 +23,12 @@ print(placeholder)
 while not game_over:
     guess=input("Guess a letter: \n").lower() 
     display=""
-    if guess in check:
-        print(f"You've already used this letter: {guess}")
-    else:
-        print(f"You found a letter: {guess}")    
+   
     for name in name_random:
+        if guess in check:
+            print(f"You've already used this letter: {guess}")
+        else:
+            print(f"You found a letter: {guess}")    
         if guess==name:
             display+= name
             check.append(name)
