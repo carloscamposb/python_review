@@ -46,6 +46,12 @@
 * Day 9:
 > Dictionaries<br>
 > Nesting<br>
+> Project: The bets 
+
+
+* Day 10:
+> Functions with output<br>
 > Project: 
+
 
 ------ (I'm here! ✨ ) -----
