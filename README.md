@@ -51,7 +51,14 @@
 
 * Day 10:
 > Functions with output<br>
-> Project: 
+> Project: Calculator 
+
+* Day 11:
+> Project: Blackjack 
+
+* Day 12:
+>Local and global scope
+> Project: Number Guessing Project
 
 
 ------ (I'm here! ✨ ) -----

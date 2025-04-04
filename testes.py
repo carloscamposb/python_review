@@ -1,108 +1,37 @@
-import random
-print('''
- _                                             
-| |                                            
-| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
-| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
-| | | | (_| | | | | (_| | | | | | | (_| | | | |
-|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
-                    __/ |                      
-                   |___/        
-''')
+
+# ======= COUNT PARTS IN A STRING
+
+# string = input("Say something: ").lower()
+# sub_string = input("Say another thing: ").lower()
+
+# count = 0
+# for i in range(len(string) - len(sub_string) + 1): 
+#     if string[i:i + len(sub_string)] == sub_string:  
+#         count += 1  
+
+# print(f"The substring appears {count} times.")
 
 
-character= [
-'''
 
-_______
-|/    |
-|    (_)
-|    \|/
-|     |
-|    / |
-|___
+# ======== COUNT LETTERS
 
-''',
-'''
+# string = input("Say something: ").lower()
+# letter = input("Say another thing (single letter): ").lower()
 
-_______
-|/    |
-|    (_)
-|    \|/
-|     |
-|      |
-|___
+# count = string.count(letter)  # Conta quantas vezes a letra aparece
 
-''',
-'''
+# print(f"The letter '{letter}' appears {count} times.")
 
-_______
-|/    |
-|    (_)
-|    \|/
-|     |
-|     
-|___
+# ======== ZIP FUNCTION 
+# list_1=[100,200,300,400]
+# list_2=['Carlos', 'Felipe', 'Marcela' , 'Marta']
 
-''',
-'''
-
-_______
-|/    |
-|    (_)
-|     |/
-|     |
-|     
-|___
-
-''',
-'''
-
-_______
-|/    |
-|    (_)
-|     |
-|     |
-|     
-|___
-
-''',
-'''
-
-_______
-|/    |
-|    (_)
-|     |
-|     
-|    
-|___
-
-''',
-'''
-
-_______
-|/    |
-|    (_)
-|    
-|     
-|    
-|___
-
-''',
-'''
-
-_______
-|/    |
-|    
-|    
-|     
-|   
-|___
-
-'''
-]
-
-print(len(character))
+# print(dict(zip(list_2,list_1)))
 
 
-print(character[7])
+# ======= USING TIME
+# import time
+# for i in range (5,0,-1):
+#     print(i, end='\r')
+#     time.sleep(1)
+# print('finished')    
