@@ -54,11 +54,18 @@
 > Project: Calculator 
 
 * Day 11:
-> Project: Blackjack 
+> Project: Blackjack <br>
 
 * Day 12:
->Local and global scope
-> Project: Number Guessing Project
+>Local and global scope <br>
+> Project: Number Guessing Project <br>
 
+* Day 13:
+> Debuging <br>
+
+* Day 14:
+> Project: Guess the higher or lower<br>
+
+* Day 15:
 
 ------ (I'm here! ✨ ) -----

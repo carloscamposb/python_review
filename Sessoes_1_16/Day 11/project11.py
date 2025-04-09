@@ -1,21 +1,21 @@
 import random
-import cards
+from cards import cards_values, logo_game
 
-while True:
+
     # ======== Functions =========
-    def subst(num1, num2):
+def subst(num1:int, num2:int) -> int:
         '''This function performs subtractions.'''
         return num1 - num2
 
-    def sum_cards(num1,num2):
+def sum_cards(num1:int,num2:int) -> int:
         '''This function sum the values.'''
         return num1 + num2
 
-    def last_number(calculation, num3):
+def last_number(calculation:int, num3:int) -> int:
         '''This function add one more number and sum'''
         return calculation + num3
 
-    def verification(calculation, new_calculation, calculation_dealer):
+def verification(calculation:int, new_calculation:int, calculation_dealer:int)->int:
         '''This function checks for victory and defeat'''
         if calculation == calculation_dealer:
             return 'Oh no! It\'s a draw! 👀'
@@ -36,14 +36,14 @@ while True:
             return 'Congrats! You win 🎉✨'
         
         else:
-            return 'You went over. You lose ☠️'
+            return 'You went over. You lose ☠️'    
 
-
+while True:
     # ============ User===========
 
-    print(cards.logo)
+    print(logo_game)
     
-    cards_user=random.choices(cards.cards,k=2)
+    cards_user=random.choices(cards_values,k=2)
   
     values_save= {
         'card1': cards_user[0],
@@ -69,7 +69,7 @@ while True:
 
     # ======== dealer =======
     
-    cards_dealer=random.choices(cards.cards,k=2)
+    cards_dealer=random.choices(cards_values,k=2)
 
     values_save_dealer= {
         'card1': cards_dealer[0],
@@ -94,7 +94,7 @@ while True:
         print(verification(calculation,0, calculation_dealer))
 
     else:
-        cards_user+=random.choices(cards.cards,k=1)
+        cards_user+=random.choices(cards_values,k=1)
         values_save['card3']=cards_user[0]
         num3=values_save['card3']
         new_calculation=last_number(calculation, num3)
@@ -102,10 +102,10 @@ while True:
         print(f'Dealer\'s final hand: {num3} and {num4}, final score:{calculation_dealer}')
         print(verification(0,new_calculation,calculation_dealer))
 
-    replay=input('Do you wanna play again? y/n: \n')
+    replay=input('Do you wanna play again? y/n: \n').lower()
 
     if replay == 'n':
-        print("Ok! Thank you!")
+        print("Ok! Thank you! 😉")
         break         
     else:
         print('\n'*20)

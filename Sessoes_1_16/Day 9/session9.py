@@ -37,26 +37,28 @@
 # print(travel_alog['Brasil'][1])
 
 
-nested_list= ["a", "b",["c", "d"]]  
+# nested_list= ["a", "b",["c", "d"]]  
 
 
-print(nested_list[2][1])
+# print(nested_list[2][1])
 
 #Dictionary nested in another dictionary
 
-travel_log={
-    "Brasil":{
-        "states_viseted": ['Pernambuco', 'São Paulo' , 'Belém do Pará', 'Minas Gerais'],
-        "total_viseted": 4
-    },
+# travel_log={
+#     "Brasil":{
+#         "states_viseted": ['Pernambuco', 'São Paulo' , 'Belém do Pará', 'Minas Gerais'],
+#         "total_viseted": 4
+#     },
 
-    "EUA":{
-        "states_viseted": ['Ohio', 'Nevada' , 'New YorK'],
-        "total_viseted": 3
-    }
+#     "EUA":{
+#         "states_viseted": ['Ohio', 'Nevada' , 'New YorK'],
+#         "total_viseted": 3
+#     }
    
-}
+# }
 
-print(travel_log["EUA"]["states_viseted"][2])
+# print(travel_log["EUA"]["states_viseted"][2])
+
+
 
 

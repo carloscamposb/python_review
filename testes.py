@@ -35,3 +35,42 @@
 #     print(i, end='\r')
 #     time.sleep(1)
 # print('finished')    
+
+
+
+
+# def swap_case(s):
+#     newOne=''  
+#     for letter in s:
+#         if letter.islower():
+#             newOne+=letter.upper()
+#         else:
+#             newOne+=letter.lower()  
+#     return newOne        
+
+# s = input('escreva um nome: ')
+# result = swap_case(s)
+# print(result)
+
+
+list1=[1,2,3]
+list2=['eu', 'voce', 'ele']
+
+teste= zip(list2,list1) 
+
+teste=dict(teste)
+
+chave_valor = list(teste.items())[0] #items metodo que retorna todos os chave/valor dentro dele
+print(list(chave_valor)) 
+
+
+#dicionario.keys()
+
+chave_valor = list(teste.keys())
+print(list(chave_valor)) 
+
+
+#dicionario.values()
+
+chave_valor = list(teste.values())
+print(list(chave_valor)) 
