@@ -65,7 +65,15 @@
 
 * Day 14:
 > Project: Guess the higher or lower<br>
+> Project: Ranking the preferences <br>
 
 * Day 15:
+> Project: Coffee Machine
 
+* Day 16 and 17:
+> Object Oriented Programming (OOP)
+> Project: Quiz Project
+
+* Day 18:
+>
 ------ (I'm here! ✨ ) -----
